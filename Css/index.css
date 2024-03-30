@@ -1,0 +1,41 @@
+*{
+	
+	box-sizing: border-box;
+	font-family: 'Jost', sans-serif;
+}
+
+body{
+    background-image: url(../images/modern-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container
+{
+   
+    height: 100vh;
+}
+.row
+{
+    justify-content: center;
+    align-items: center;
+}
+.row .contentNum
+{
+    text-align: center;
+}
+.row .contentNum #btnNumber:hover
+{
+    transition: 1s;
+    transform: scale(1.2,1.2);
+    color: white;
+    
+}
+.container .result
+{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
